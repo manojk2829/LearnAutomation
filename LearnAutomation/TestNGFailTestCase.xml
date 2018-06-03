@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteFailTestCase">
+  <test name="Test">
+    <classes>
+      <class name="startToEnd.TestCaseFail5"/>
+      <class name="startToEnd.TestCasePass1"/>
+      <class name="startToEnd.TestCasePass2"/>
+      <class name="startToEnd.TestCaseFail3"/>
+      <class name="startToEnd.TestCasePass4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- SuiteFailTestCase -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteFailTestCase]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="startToEnd.TestCaseFail3">
+        <methods>
+          <include name="GM"/>
+        </methods>
+      </class> <!-- startToEnd.TestCaseFail3 -->
+      <class name="startToEnd.TestCaseFail5">
+        <methods>
+          <include name="WAPP"/>
+        </methods>
+      </class> <!-- startToEnd.TestCaseFail5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteFailTestCase] -->
